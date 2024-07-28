@@ -1,0 +1,13 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "engines": {
+    "node": "18.x"
+  },
+  "scripts": {
+    "heroku-postbuild": "npm install --prefix dashboard && npm run build --prefix dashboard",
+    "build": "npm run build --prefix dashboard",
+    "preview": "npm run preview --prefix dashboard",
+    "dev": "npm run dev --prefix dashboard"
+  }
+}

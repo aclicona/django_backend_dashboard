@@ -1,0 +1,524 @@
+2024-05-09 14:38:34.530 -05 [22716] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-05-09 14:38:34.574 -05 [22716] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-05-09 14:38:34.574 -05 [22716] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-05-09 14:38:34.790 -05 [28812] LOG:  el sistema de bases de datos fue apagado en 2024-05-09 14:38:04 -05
+2024-05-09 14:38:35.268 -05 [22716] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-05-09 14:39:13.101 -05 [7380] ERROR:  error de sintaxis en o cerca de Â«DABASEÂ» en carÃ¡cter 8
+2024-05-09 14:39:13.101 -05 [7380] SENTENCIA:  CREATE DABASE project2;
+2024-05-09 15:50:58.393 -05 [3552] FATAL:  no existe la base de datos «planeacion»
+2024-05-09 15:55:51.223 -05 [22716] LOG:  recolector de estadísticas (PID 33356) terminó con código de salida 1
+2024-05-09 15:55:57.716 -05 [22716] LOG:  recolector de estadísticas (PID 1652) terminó con código de salida 1
+2024-05-09 15:55:59.858 -05 [22716] LOG:  proceso escritor de WAL (PID 32608) terminó con código de salida 1
+2024-05-09 15:55:59.858 -05 [22716] LOG:  terminando todos los otros procesos de servidor activos
+2024-05-09 15:55:59.885 -05 [5344] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-05-09 15:55:59.885 -05 [5344] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-05-09 15:55:59.885 -05 [5344] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-05-09 15:55:59.948 -05 [22716] LOG:  todos los procesos fueron terminados; reinicializando
+2024-05-09 15:56:00.206 -05 [35524] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-05-09 14:44:22 -05
+2024-05-09 15:56:03.945 -05 [22716] LOG:  proceso de inicio (PID 35524) terminó con código de salida 1
+2024-05-09 15:56:03.945 -05 [22716] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+2024-05-09 15:56:03.951 -05 [22716] LOG:  el sistema de bases de datos está apagado
+2024-05-09 15:56:08.937 -05 [28540] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-05-09 15:56:08.981 -05 [28540] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-05-09 15:56:08.983 -05 [28540] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-05-09 15:56:09.195 -05 [11992] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-05-09 14:44:22 -05
+2024-05-09 15:56:12.181 -05 [11992] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-05-09 15:56:12.195 -05 [11992] LOG:  redo comienza en 0/15CF860
+2024-05-09 15:56:12.195 -05 [11992] LOG:  largo de registro no válido en 0/15CF948: se esperaba 24, se obtuvo 0
+2024-05-09 15:56:12.195 -05 [11992] LOG:  redo listo en 0/15CF910
+2024-05-09 15:56:12.730 -05 [28540] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-05-09 15:56:28.194 -05 [25752] FATAL:  no existe la base de datos «planeacion»
+2024-05-09 15:58:02.346 -05 [32700] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 15:58:02.346 -05 [32700] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:00:39.945 -05 [18196] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:00:39.945 -05 [18196] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:01:47.726 -05 [28724] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:01:47.726 -05 [28724] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:02:01.251 -05 [17024] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:02:01.251 -05 [17024] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:03:24.105 -05 [21880] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:03:24.105 -05 [21880] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:10:07.680 -05 [28832] FATAL:  no existe la base de datos «project3»
+2024-05-09 16:11:54.630 -05 [30544] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:11:54.630 -05 [30544] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:12:24.245 -05 [21772] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:12:24.245 -05 [21772] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:20:50.170 -05 [23392] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:20:50.170 -05 [23392] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:24:32.955 -05 [444] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:24:32.955 -05 [444] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:25:23.918 -05 [35244] ERROR:  no existe la relaciÃ³n Â«account_userÂ»
+2024-05-09 16:25:23.918 -05 [35244] SENTENCIA:  ALTER TABLE "django_admin_log" ADD CONSTRAINT "django_admin_log_user_id_c564eba6_fk_account_user_id" FOREIGN KEY ("user_id") REFERENCES "account_user" ("id") DEFERRABLE INITIALLY DEFERRED
+2024-05-09 16:33:40.157 -05 [28540] LOG:  se recibió petición de apagado rápido
+2024-05-09 16:33:40.173 -05 [28540] LOG:  abortando transacciones activas
+2024-05-09 16:33:40.175 -05 [29220] ERROR:  cancelando la sentencia debido a una petición del usuario
+2024-05-09 16:33:40.184 -05 [24804] FATAL:  terminando la conexiÃ³n debido a una orden del administrador
+2024-05-09 16:33:40.223 -05 [28540] LOG:  proceso ayudante «logical replication launcher» (PID 29220) terminó con código de salida 1
+2024-05-09 16:33:40.238 -05 [13952] LOG:  apagando
+2024-05-09 16:33:40.524 -05 [28540] LOG:  el sistema de bases de datos está apagado
+2024-06-14 11:00:19.048 -05 [24152] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-06-14 11:00:19.127 -05 [24152] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-06-14 11:00:19.128 -05 [24152] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-06-14 11:00:19.341 -05 [15576] LOG:  el sistema de bases de datos fue apagado en 2024-05-09 16:33:40 -05
+2024-06-14 11:00:19.792 -05 [24152] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-06-14 11:00:39.090 -05 [24152] LOG:  proceso ayudante «logical replication launcher» (PID 26848) fue terminado por una excepción 0xC000013A
+2024-06-14 11:00:39.090 -05 [24152] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-06-14 11:00:39.090 -05 [24152] LOG:  terminando todos los otros procesos de servidor activos
+2024-06-14 11:00:39.105 -05 [11584] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-06-14 11:00:39.105 -05 [11584] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-06-14 11:00:39.105 -05 [11584] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-06-14 11:00:39.119 -05 [24152] LOG:  recolector de estadísticas (PID 11732) fue terminado por una excepción 0xC000013A
+2024-06-14 11:00:39.119 -05 [24152] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-06-14 11:00:39.136 -05 [24152] LOG:  todos los procesos fueron terminados; reinicializando
+2024-06-14 11:00:39.348 -05 [25292] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-06-14 11:00:19 -05
+2024-06-14 11:00:45.333 -05 [25292] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-06-14 11:00:45.346 -05 [25292] LOG:  redo comienza en 0/173AD28
+2024-06-14 11:00:45.346 -05 [25292] LOG:  largo de registro no válido en 0/173AD60: se esperaba 24, se obtuvo 0
+2024-06-14 11:00:45.347 -05 [25292] LOG:  redo listo en 0/173AD28
+2024-06-14 11:00:45.864 -05 [24152] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-06-14 11:14:07.116 -05 [24152] LOG:  proceso ayudante «logical replication launcher» (PID 17792) fue terminado por una excepción 0xC000013A
+2024-06-14 11:14:07.116 -05 [24152] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-06-14 11:14:07.118 -05 [24152] LOG:  terminando todos los otros procesos de servidor activos
+2024-06-14 11:14:07.141 -05 [24152] LOG:  recolector de estadísticas (PID 15760) fue terminado por una excepción 0xC000013A
+2024-06-14 11:14:07.141 -05 [24152] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-06-14 11:14:07.168 -05 [24152] LOG:  todos los procesos fueron terminados; reinicializando
+2024-06-14 11:14:07.423 -05 [18524] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-06-14 11:00:45 -05
+^C2024-06-14 11:14:11.120 -05 [7460] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-06-14 11:14:11.164 -05 [7460] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-06-14 11:14:11.165 -05 [7460] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-06-14 11:14:11.397 -05 [19588] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-06-14 11:00:45 -05
+2024-06-14 11:14:13.546 -05 [19588] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-06-14 11:14:13.554 -05 [19588] LOG:  redo comienza en 0/173ADD8
+2024-06-14 11:14:13.554 -05 [19588] LOG:  largo de registro no válido en 0/173AE10: se esperaba 24, se obtuvo 0
+2024-06-14 11:14:13.554 -05 [19588] LOG:  redo listo en 0/173ADD8
+2024-06-14 11:14:14.097 -05 [7460] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-06-14 14:30:50.657 -05 [31992] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-06-14 14:58:23.581 -05 [7460] LOG:  proceso ayudante «logical replication launcher» (PID 20412) fue terminado por una excepción 0xC000013A
+2024-06-14 14:58:23.581 -05 [7460] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-06-14 14:58:23.585 -05 [7460] LOG:  terminando todos los otros procesos de servidor activos
+2024-06-14 14:58:23.600 -05 [7460] LOG:  recolector de estadísticas (PID 28792) fue terminado por una excepción 0xC000013A
+2024-06-14 14:58:23.600 -05 [7460] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+^C2024-07-04 13:33:37.476 -05 [14960] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-04 13:33:37.711 -05 [14960] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-04 13:33:37.713 -05 [14960] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-04 13:33:38.923 -05 [19912] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-06-14 11:29:20 -05
+2024-07-04 13:33:53.043 -05 [19912] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-04 13:33:53.069 -05 [19912] LOG:  redo comienza en 0/176F8A0
+2024-07-04 13:33:53.070 -05 [19912] LOG:  largo de registro no válido en 0/176F988: se esperaba 24, se obtuvo 0
+2024-07-04 13:33:53.071 -05 [19912] LOG:  redo listo en 0/176F950
+2024-07-04 13:33:53.733 -05 [14960] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-04 15:00:33.173 -05 [2056] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-07-04 15:08:13.915 -05 [14960] LOG:  proceso ayudante «logical replication launcher» (PID 17028) fue terminado por una excepción 0xC000013A
+2024-07-04 15:08:13.915 -05 [14960] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-04 15:08:13.920 -05 [14960] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-04 15:08:13.927 -05 [14960] LOG:  recolector de estadísticas (PID 19040) fue terminado por una excepción 0xC000013A
+2024-07-04 15:08:13.927 -05 [14960] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-04 15:08:13.983 -05 [14960] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-04 15:08:14.361 -05 [9712] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-04 13:33:53 -05
+2024-07-04 15:08:14.775 -05 [14960] LOG:  proceso de inicio (PID 9712) fue terminado por una excepción 0xC000013A
+2024-07-04 15:08:14.775 -05 [14960] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-04 15:08:14.775 -05 [14960] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-04 15:59:12.664 -05 [26552] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-04 15:59:12.747 -05 [26552] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-04 15:59:12.748 -05 [26552] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-04 15:59:15.707 -05 [14364] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-04 13:33:53 -05
+2024-07-04 15:59:21.377 -05 [14364] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-04 15:59:21.401 -05 [14364] LOG:  redo comienza en 0/176FA00
+2024-07-04 15:59:21.401 -05 [14364] LOG:  largo de registro no válido en 0/176FA38: se esperaba 24, se obtuvo 0
+2024-07-04 15:59:21.402 -05 [14364] LOG:  redo listo en 0/176FA00
+2024-07-04 15:59:22.121 -05 [26552] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-04 16:09:51.835 -05 [17892] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-07-04 16:10:13.369 -05 [26552] LOG:  proceso ayudante «logical replication launcher» (PID 6332) fue terminado por una excepción 0xC000013A
+2024-07-04 16:10:13.369 -05 [26552] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-04 16:10:13.370 -05 [26552] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-04 16:10:13.374 -05 [26552] LOG:  recolector de estadísticas (PID 4080) fue terminado por una excepción 0xC000013A
+2024-07-04 16:10:13.374 -05 [26552] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-04 16:10:13.397 -05 [26552] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-04 16:10:13.664 -05 [6312] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-04 15:59:21 -05
+2024-07-04 16:10:14.579 -05 [26552] LOG:  proceso de inicio (PID 6312) fue terminado por una excepción 0xC000013A
+2024-07-04 16:10:14.579 -05 [26552] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+^C2024-07-05 14:31:00.469 -05 [32108] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-05 14:31:00.542 -05 [32108] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-05 14:31:00.544 -05 [32108] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-05 14:31:01.166 -05 [27832] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-04 15:59:21 -05
+2024-07-05 14:31:09.964 -05 [27832] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-05 14:31:09.980 -05 [27832] LOG:  redo comienza en 0/176FAB0
+2024-07-05 14:31:09.981 -05 [27832] LOG:  largo de registro no válido en 0/176FAE8: se esperaba 24, se obtuvo 0
+2024-07-05 14:31:09.981 -05 [27832] LOG:  redo listo en 0/176FAB0
+2024-07-05 14:31:10.556 -05 [32108] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-05 16:08:21.664 -05 [13584] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-07-05 16:08:52.985 -05 [32108] LOG:  proceso ayudante «logical replication launcher» (PID 19852) fue terminado por una excepción 0xC000013A
+2024-07-05 16:08:52.985 -05 [32108] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-05 16:08:52.989 -05 [32108] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-05 16:08:53.002 -05 [32108] LOG:  recolector de estadísticas (PID 8256) fue terminado por una excepción 0xC000013A
+2024-07-05 16:08:53.002 -05 [32108] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-05 16:08:53.032 -05 [32108] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-05 16:08:53.252 -05 [30780] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-05 14:31:10 -05
+2024-07-05 16:08:54.835 -05 [32108] LOG:  proceso de inicio (PID 30780) fue terminado por una excepción 0xC000013A
+2024-07-05 16:08:54.835 -05 [32108] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-05 16:08:54.836 -05 [32108] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-12 15:23:42.889 -05 [21676] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-12 15:23:43.182 -05 [21676] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-12 15:23:43.184 -05 [21676] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-12 15:23:43.946 -05 [11808] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-05 14:31:10 -05
+2024-07-12 15:23:52.006 -05 [11808] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-12 15:23:52.030 -05 [11808] LOG:  redo comienza en 0/176FB60
+2024-07-12 15:23:52.031 -05 [11808] LOG:  largo de registro no válido en 0/176FB98: se esperaba 24, se obtuvo 0
+2024-07-12 15:23:52.031 -05 [11808] LOG:  redo listo en 0/176FB60
+2024-07-12 15:23:52.615 -05 [21676] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-12 16:00:01.581 -05 [9548] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-07-12 16:00:15.311 -05 [21676] LOG:  proceso ayudante «logical replication launcher» (PID 30244) fue terminado por una excepción 0xC000013A
+2024-07-12 16:00:15.311 -05 [21676] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-12 16:00:15.313 -05 [21676] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-12 16:00:15.334 -05 [21676] LOG:  recolector de estadísticas (PID 33664) fue terminado por una excepción 0xC000013A
+2024-07-12 16:00:15.334 -05 [21676] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-12 16:00:15.356 -05 [21676] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-12 16:00:15.631 -05 [27528] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-12 15:23:52 -05
+2024-07-12 16:00:17.604 -05 [21676] LOG:  proceso de inicio (PID 27528) fue terminado por una excepción 0xC000013A
+2024-07-12 16:00:17.604 -05 [21676] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-12 16:00:17.604 -05 [21676] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-17 09:29:02.333 -05 [20364] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-17 09:29:02.963 -05 [20364] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-17 09:29:02.965 -05 [20364] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-17 09:29:04.059 -05 [35452] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-12 15:23:52 -05
+^C2024-07-17 09:31:14.337 -05 [31928] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-17 09:31:14.404 -05 [31928] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-17 09:31:14.406 -05 [31928] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-17 09:31:16.351 -05 [17732] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-12 15:23:52 -05
+2024-07-17 09:31:22.494 -05 [17732] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-17 09:31:22.514 -05 [17732] LOG:  redo comienza en 0/176FC10
+2024-07-17 09:31:22.515 -05 [17732] LOG:  largo de registro no válido en 0/176FC48: se esperaba 24, se obtuvo 0
+2024-07-17 09:31:22.515 -05 [17732] LOG:  redo listo en 0/176FC10
+2024-07-17 09:31:23.157 -05 [31928] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-17 09:34:14.053 -05 [31928] LOG:  proceso ayudante «logical replication launcher» (PID 21268) fue terminado por una excepción 0xC000013A
+2024-07-17 09:34:14.053 -05 [31928] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 09:34:14.054 -05 [31928] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-17 09:34:14.074 -05 [31928] LOG:  recolector de estadísticas (PID 24804) fue terminado por una excepción 0xC000013A
+2024-07-17 09:34:14.074 -05 [31928] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 09:34:14.117 -05 [31928] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-17 09:34:14.675 -05 [11700] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:31:22 -05
+^C2024-07-17 09:35:06.676 -05 [11348] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-17 09:35:06.749 -05 [11348] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-17 09:35:06.751 -05 [11348] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-17 09:35:07.132 -05 [17272] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:31:22 -05
+2024-07-17 09:35:10.981 -05 [17272] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-17 09:35:10.992 -05 [17272] LOG:  redo comienza en 0/176FCC0
+2024-07-17 09:35:10.993 -05 [17272] LOG:  largo de registro no válido en 0/176FCF8: se esperaba 24, se obtuvo 0
+2024-07-17 09:35:10.993 -05 [17272] LOG:  redo listo en 0/176FCC0
+2024-07-17 09:35:11.782 -05 [11348] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-17 09:35:25.036 -05 [11348] LOG:  proceso ayudante «logical replication launcher» (PID 35028) fue terminado por una excepción 0xC000013A
+2024-07-17 09:35:25.036 -05 [11348] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 09:35:25.037 -05 [11348] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-17 09:35:25.063 -05 [11348] LOG:  recolector de estadísticas (PID 34520) fue terminado por una excepción 0xC000013A
+2024-07-17 09:35:25.063 -05 [11348] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 09:35:25.092 -05 [11348] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-17 09:35:25.689 -05 [34540] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:35:11 -05
+2024-07-17 09:35:26.621 -05 [11348] LOG:  proceso de inicio (PID 34540) fue terminado por una excepción 0xC000013A
+2024-07-17 09:35:26.621 -05 [11348] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 09:35:26.622 -05 [11348] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-17 09:37:03.974 -05 [468] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-17 09:37:04.025 -05 [468] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-17 09:37:04.027 -05 [468] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-17 09:37:04.294 -05 [10960] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:35:11 -05
+2024-07-17 09:37:06.649 -05 [10960] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-17 09:37:06.659 -05 [10960] LOG:  largo de registro no válido en 0/176FD70: se esperaba 24, se obtuvo 0
+2024-07-17 09:37:06.659 -05 [10960] LOG:  no se requiere redo
+2024-07-17 09:37:07.259 -05 [468] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-17 09:37:16.367 -05 [468] LOG:  proceso ayudante «logical replication launcher» (PID 10264) fue terminado por una excepción 0xC000013A
+2024-07-17 09:37:16.367 -05 [468] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 09:37:16.368 -05 [468] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-17 09:37:16.376 -05 [468] LOG:  recolector de estadísticas (PID 13688) fue terminado por una excepción 0xC000013A
+2024-07-17 09:37:16.376 -05 [468] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 09:37:16.401 -05 [468] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-17 09:37:16.892 -05 [16272] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:37:06 -05
+^C2024-07-17 09:38:36.486 -05 [34924] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-17 09:38:36.588 -05 [34924] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-17 09:38:36.591 -05 [34924] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-17 09:38:37.084 -05 [35384] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:37:06 -05
+2024-07-17 09:38:40.753 -05 [35384] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-17 09:38:40.764 -05 [35384] LOG:  largo de registro no válido en 0/176FDE8: se esperaba 24, se obtuvo 0
+2024-07-17 09:38:40.765 -05 [35384] LOG:  no se requiere redo
+2024-07-17 09:38:41.726 -05 [34924] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-17 16:01:05.371 -05 [34924] LOG:  proceso de servidor (PID 13372) fue terminado por una excepción 0xC000013A
+2024-07-17 16:01:05.371 -05 [34924] DETALLE:  El proceso que falló estaba ejecutando: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2024-07-17 16:01:05.371 -05 [34924] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 16:01:05.376 -05 [34924] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-17 16:01:05.454 -05 [440] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-17 16:01:05.454 -05 [440] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-17 16:01:05.454 -05 [440] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-17 16:01:05.500 -05 [34924] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-17 16:01:05.800 -05 [7248] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:38:40 -05
+2024-07-17 16:01:12.708 -05 [34924] LOG:  proceso de inicio (PID 7248) fue terminado por una excepción 0xC000013A
+2024-07-17 16:01:12.708 -05 [34924] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-17 16:01:12.708 -05 [34924] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-25 10:51:58.023 -05 [18960] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-25 10:51:58.119 -05 [18960] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-25 10:51:58.120 -05 [18960] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-25 10:51:58.436 -05 [28120] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-17 09:38:40 -05
+2024-07-25 10:52:07.045 -05 [28120] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-25 10:52:07.066 -05 [28120] LOG:  redo comienza en 0/176FE60
+2024-07-25 10:52:07.066 -05 [28120] LOG:  largo de registro no válido en 0/176FE98: se esperaba 24, se obtuvo 0
+2024-07-25 10:52:07.067 -05 [28120] LOG:  redo listo en 0/176FE60
+2024-07-25 10:52:07.908 -05 [18960] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-25 11:19:16.235 -05 [18960] LOG:  proceso de servidor (PID 5824) fue terminado por una excepción 0xC000013A
+2024-07-25 11:19:16.235 -05 [18960] DETALLE:  El proceso que falló estaba ejecutando: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2024-07-25 11:19:16.235 -05 [18960] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-25 11:19:16.244 -05 [18960] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-25 11:19:16.394 -05 [26468] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-25 11:19:16.394 -05 [26468] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-25 11:19:16.394 -05 [26468] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-25 11:19:16.524 -05 [18960] LOG:  todos los procesos fueron terminados; reinicializando
+^C2024-07-25 11:19:28.675 -05 [20244] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-25 11:19:28.845 -05 [20244] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-25 11:19:28.848 -05 [20244] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-25 11:19:30.935 -05 [24028] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-25 10:52:07 -05
+2024-07-25 11:19:42.219 -05 [24028] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-25 11:19:42.243 -05 [24028] LOG:  redo comienza en 0/176FF10
+2024-07-25 11:19:42.244 -05 [24028] LOG:  largo de registro no válido en 0/176FF48: se esperaba 24, se obtuvo 0
+2024-07-25 11:19:42.244 -05 [24028] LOG:  redo listo en 0/176FF10
+2024-07-25 11:19:42.866 -05 [20244] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-25 13:05:48.577 -05 [20244] LOG:  proceso de servidor (PID 6880) fue terminado por una excepción 0xC000013A
+2024-07-25 13:05:48.577 -05 [20244] DETALLE:  El proceso que falló estaba ejecutando: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2024-07-25 13:05:48.577 -05 [20244] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-25 13:05:48.583 -05 [20244] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-25 13:05:48.666 -05 [29092] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-25 13:05:48.666 -05 [29092] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-25 13:05:48.666 -05 [29092] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-25 13:05:48.759 -05 [20244] LOG:  todos los procesos fueron terminados; reinicializando
+^C2024-07-25 13:05:49.150 -05 [31856] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-25 11:24:45 -05
+2024-07-25 13:05:58.243 -05 [3132] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-25 13:05:58.311 -05 [3132] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-25 13:05:58.312 -05 [3132] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-25 13:05:58.632 -05 [35556] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-25 11:24:45 -05
+2024-07-25 13:06:13.756 -05 [35556] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-25 13:06:13.827 -05 [35556] LOG:  redo comienza en 0/1771FC0
+2024-07-25 13:06:13.829 -05 [35556] LOG:  largo de registro no válido en 0/17720C0: se esperaba 24, se obtuvo 0
+2024-07-25 13:06:13.829 -05 [35556] LOG:  redo listo en 0/1772088
+2024-07-25 13:06:15.464 -05 [3132] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-25 13:16:27.760 -05 [3132] LOG:  proceso de servidor (PID 956) fue terminado por una excepción 0xC000013A
+2024-07-25 13:16:27.760 -05 [3132] DETALLE:  El proceso que falló estaba ejecutando: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2024-07-25 13:16:27.760 -05 [3132] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-25 13:16:27.764 -05 [3132] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-25 13:16:27.869 -05 [31856] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-25 13:16:27.869 -05 [31856] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-25 13:16:27.869 -05 [31856] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-25 13:16:27.942 -05 [3132] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-25 13:16:28.270 -05 [5824] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-25 13:06:13 -05
+2024-07-25 13:16:28.501 -05 [3132] LOG:  proceso de inicio (PID 5824) fue terminado por una excepción 0xC000013A
+2024-07-25 13:16:28.501 -05 [3132] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-25 13:16:28.502 -05 [3132] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-25 13:16:35.196 -05 [24676] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-25 13:16:35.283 -05 [24676] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-25 13:16:35.285 -05 [24676] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-25 13:16:35.621 -05 [14648] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-25 13:06:13 -05
+2024-07-25 13:16:52.474 -05 [14648] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-25 13:16:52.507 -05 [14648] LOG:  redo comienza en 0/1772138
+2024-07-25 13:16:52.508 -05 [14648] LOG:  largo de registro no válido en 0/1772170: se esperaba 24, se obtuvo 0
+2024-07-25 13:16:52.509 -05 [14648] LOG:  redo listo en 0/1772138
+2024-07-25 13:16:53.186 -05 [24676] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-25 16:05:00.239 -05 [24676] LOG:  proceso de servidor (PID 23160) fue terminado por una excepción 0xC000013A
+2024-07-25 16:05:00.239 -05 [24676] DETALLE:  El proceso que falló estaba ejecutando: SELECT "django_migrations"."id", "django_migrations"."app", "django_migrations"."name", "django_migrations"."applied" FROM "django_migrations"
+2024-07-25 16:05:00.239 -05 [24676] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-25 16:05:00.244 -05 [24676] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-25 16:05:00.300 -05 [14412] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-25 16:05:00.300 -05 [14412] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-25 16:05:00.300 -05 [14412] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-25 16:05:00.382 -05 [24676] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-25 16:05:00.720 -05 [11640] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-25 16:01:14 -05
+2024-07-25 16:05:01.141 -05 [24676] LOG:  proceso de inicio (PID 11640) fue terminado por una excepción 0xC000013A
+2024-07-25 16:05:01.141 -05 [24676] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-25 16:05:01.142 -05 [24676] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-26 09:57:25.842 -05 [24064] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 09:57:25.916 -05 [24064] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 09:57:25.918 -05 [24064] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 09:57:26.275 -05 [15976] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-25 16:01:14 -05
+2024-07-26 09:57:38.185 -05 [15976] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 09:57:38.205 -05 [15976] LOG:  redo comienza en 0/1789950
+2024-07-26 09:57:38.229 -05 [15976] LOG:  largo de registro no válido en 0/178CCA0: se esperaba 24, se obtuvo 0
+2024-07-26 09:57:38.229 -05 [15976] LOG:  redo listo en 0/178CC68
+2024-07-26 09:57:38.991 -05 [24064] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 10:53:56.321 -05 [24064] LOG:  proceso ayudante «logical replication launcher» (PID 26772) fue terminado por una excepción 0xC000013A
+2024-07-26 10:53:56.321 -05 [24064] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 10:53:56.327 -05 [24064] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 10:53:56.333 -05 [24064] LOG:  recolector de estadísticas (PID 5580) fue terminado por una excepción 0xC000013A
+2024-07-26 10:53:56.333 -05 [24064] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+^C2024-07-26 11:23:58.549 -05 [22376] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 11:23:58.716 -05 [22376] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 11:23:58.718 -05 [22376] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 11:23:59.475 -05 [29676] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 09:57:38 -05
+2024-07-26 11:24:19.845 -05 [29676] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:24:19.871 -05 [29676] LOG:  redo comienza en 0/178CD18
+2024-07-26 11:24:19.872 -05 [29676] LOG:  largo de registro no válido en 0/178CD50: se esperaba 24, se obtuvo 0
+2024-07-26 11:24:19.873 -05 [29676] LOG:  redo listo en 0/178CD18
+2024-07-26 11:24:20.683 -05 [22376] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 11:37:25.696 -05 [22376] LOG:  proceso ayudante «logical replication launcher» (PID 26264) fue terminado por una excepción 0xC000013A
+2024-07-26 11:37:25.696 -05 [22376] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:37:25.698 -05 [22376] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 11:37:25.734 -05 [22376] LOG:  recolector de estadísticas (PID 30276) fue terminado por una excepción 0xC000013A
+2024-07-26 11:37:25.734 -05 [22376] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:37:25.759 -05 [22376] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 11:37:26.011 -05 [15804] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:24:19 -05
+2024-07-26 11:37:26.379 -05 [22376] LOG:  proceso de inicio (PID 15804) fue terminado por una excepción 0xC000013A
+2024-07-26 11:37:26.379 -05 [22376] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:37:26.379 -05 [22376] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-26 11:37:32.756 -05 [4320] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 11:37:32.808 -05 [4320] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 11:37:32.809 -05 [4320] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 11:37:33.105 -05 [7124] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:24:19 -05
+2024-07-26 11:37:45.000 -05 [7124] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:37:45.024 -05 [7124] LOG:  redo comienza en 0/178CDC8
+2024-07-26 11:37:45.024 -05 [7124] LOG:  largo de registro no válido en 0/178CE00: se esperaba 24, se obtuvo 0
+2024-07-26 11:37:45.025 -05 [7124] LOG:  redo listo en 0/178CDC8
+2024-07-26 11:37:46.812 -05 [4320] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 11:39:13.015 -05 [4320] LOG:  proceso ayudante «logical replication launcher» (PID 5184) fue terminado por una excepción 0xC000013A
+2024-07-26 11:39:13.015 -05 [4320] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:39:13.016 -05 [4320] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 11:39:13.048 -05 [4320] LOG:  recolector de estadísticas (PID 16044) fue terminado por una excepción 0xC000013A
+2024-07-26 11:39:13.048 -05 [4320] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:39:13.074 -05 [4320] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 11:39:13.576 -05 [14788] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:37:45 -05
+2024-07-26 11:39:14.051 -05 [4320] LOG:  proceso de inicio (PID 14788) fue terminado por una excepción 0xC000013A
+2024-07-26 11:39:14.051 -05 [4320] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+^C2024-07-26 11:39:20.298 -05 [1828] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 11:39:20.382 -05 [1828] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 11:39:20.385 -05 [1828] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 11:39:20.904 -05 [28564] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:37:45 -05
+2024-07-26 11:39:23.382 -05 [28564] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:39:23.393 -05 [28564] LOG:  redo comienza en 0/178CE78
+2024-07-26 11:39:23.393 -05 [28564] LOG:  largo de registro no válido en 0/178CEB0: se esperaba 24, se obtuvo 0
+2024-07-26 11:39:23.393 -05 [28564] LOG:  redo listo en 0/178CE78
+2024-07-26 11:39:23.950 -05 [1828] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 11:39:33.905 -05 [1828] LOG:  proceso ayudante «logical replication launcher» (PID 23504) fue terminado por una excepción 0xC000013A
+2024-07-26 11:39:33.905 -05 [1828] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:39:33.905 -05 [1828] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 11:39:33.920 -05 [11736] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-26 11:39:33.920 -05 [11736] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-26 11:39:33.920 -05 [11736] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-26 11:39:33.933 -05 [1828] LOG:  recolector de estadísticas (PID 9616) fue terminado por una excepción 0xC000013A
+2024-07-26 11:39:33.933 -05 [1828] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:39:33.936 -05 [1828] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 11:39:34.215 -05 [27420] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:39:23 -05
+2024-07-26 11:39:36.961 -05 [27420] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:39:36.972 -05 [27420] LOG:  largo de registro no válido en 0/178CF28: se esperaba 24, se obtuvo 0
+2024-07-26 11:39:36.972 -05 [27420] LOG:  no se requiere redo
+2024-07-26 11:39:37.540 -05 [1828] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 11:39:42.198 -05 [1828] LOG:  proceso ayudante «logical replication launcher» (PID 18956) fue terminado por una excepción 0xC000013A
+2024-07-26 11:39:42.198 -05 [1828] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:39:42.198 -05 [1828] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 11:39:42.212 -05 [21780] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-26 11:39:42.212 -05 [21780] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-26 11:39:42.212 -05 [21780] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-26 11:39:42.232 -05 [1828] LOG:  recolector de estadísticas (PID 7612) fue terminado por una excepción 0xC000013A
+2024-07-26 11:39:42.232 -05 [1828] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:39:42.232 -05 [1828] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 11:39:42.490 -05 [27136] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:39:37 -05
+2024-07-26 11:39:45.386 -05 [27136] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:39:45.400 -05 [27136] LOG:  largo de registro no válido en 0/178CFA0: se esperaba 24, se obtuvo 0
+2024-07-26 11:39:45.401 -05 [27136] LOG:  no se requiere redo
+2024-07-26 11:39:45.992 -05 [1828] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 11:40:01.190 -05 [1828] LOG:  proceso ayudante «logical replication launcher» (PID 23980) fue terminado por una excepción 0xC000013A
+2024-07-26 11:40:01.190 -05 [1828] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:40:01.191 -05 [1828] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 11:40:01.271 -05 [28120] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-26 11:40:01.271 -05 [28120] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-26 11:40:01.271 -05 [28120] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-26 11:40:01.290 -05 [1828] LOG:  recolector de estadísticas (PID 26552) fue terminado por una excepción 0xC000013A
+2024-07-26 11:40:01.290 -05 [1828] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:40:01.311 -05 [1828] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 11:40:02.610 -05 [26176] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:39:45 -05
+2024-07-26 11:40:06.683 -05 [1828] LOG:  proceso de inicio (PID 26176) fue terminado por una excepción 0xC000013A
+2024-07-26 11:40:06.683 -05 [1828] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+^C2024-07-26 11:40:11.156 -05 [1844] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 11:40:11.215 -05 [1844] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 11:40:11.218 -05 [1844] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 11:40:11.511 -05 [15872] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:39:45 -05
+2024-07-26 11:40:15.096 -05 [15872] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:40:15.118 -05 [15872] LOG:  largo de registro no válido en 0/178D018: se esperaba 24, se obtuvo 0
+2024-07-26 11:40:15.118 -05 [15872] LOG:  no se requiere redo
+2024-07-26 11:40:16.291 -05 [1844] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 11:43:01.303 -05 [1844] LOG:  proceso ayudante «logical replication launcher» (PID 11796) fue terminado por una excepción 0xC000013A
+2024-07-26 11:43:01.303 -05 [1844] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:43:01.306 -05 [1844] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 11:43:01.314 -05 [1844] LOG:  recolector de estadísticas (PID 16972) fue terminado por una excepción 0xC000013A
+2024-07-26 11:43:01.314 -05 [1844] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:43:01.422 -05 [1844] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 11:43:01.879 -05 [28832] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:40:15 -05
+^C2024-07-26 11:43:09.688 -05 [17968] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 11:43:09.782 -05 [17968] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 11:43:09.785 -05 [17968] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 11:43:10.145 -05 [30492] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:40:15 -05
+2024-07-26 11:43:14.610 -05 [30492] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:43:14.624 -05 [30492] LOG:  redo comienza en 0/178D090
+2024-07-26 11:43:14.625 -05 [30492] LOG:  largo de registro no válido en 0/178D0C8: se esperaba 24, se obtuvo 0
+2024-07-26 11:43:14.626 -05 [30492] LOG:  redo listo en 0/178D090
+2024-07-26 11:43:15.522 -05 [17968] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 11:45:40.521 -05 [17968] LOG:  proceso ayudante «logical replication launcher» (PID 27700) fue terminado por una excepción 0xC000013A
+2024-07-26 11:45:40.521 -05 [17968] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:45:40.525 -05 [17968] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 11:45:40.530 -05 [17968] LOG:  recolector de estadísticas (PID 2664) fue terminado por una excepción 0xC000013A
+2024-07-26 11:45:40.530 -05 [17968] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 11:45:40.619 -05 [17968] LOG:  todos los procesos fueron terminados; reinicializando
+^C2024-07-26 11:45:46.211 -05 [29044] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 11:45:46.281 -05 [29044] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 11:45:46.282 -05 [29044] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 11:45:46.643 -05 [17448] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:43:14 -05
+2024-07-26 11:45:49.781 -05 [17448] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 11:45:49.797 -05 [17448] LOG:  redo comienza en 0/178D140
+2024-07-26 11:45:49.798 -05 [17448] LOG:  largo de registro no válido en 0/178D178: se esperaba 24, se obtuvo 0
+2024-07-26 11:45:49.798 -05 [17448] LOG:  redo listo en 0/178D140
+2024-07-26 11:45:50.486 -05 [29044] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 14:16:54.668 -05 [29044] LOG:  proceso ayudante «logical replication launcher» (PID 25960) fue terminado por una excepción 0xC000013A
+2024-07-26 14:16:54.668 -05 [29044] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 14:16:54.671 -05 [29044] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 14:16:54.701 -05 [29044] LOG:  recolector de estadísticas (PID 8720) fue terminado por una excepción 0xC000013A
+2024-07-26 14:16:54.701 -05 [29044] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 14:16:54.742 -05 [29044] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 14:16:55.149 -05 [25880] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:45:49 -05
+2024-07-26 14:16:55.389 -05 [29044] LOG:  proceso de inicio (PID 25880) fue terminado por una excepción 0xC000013A
+2024-07-26 14:16:55.389 -05 [29044] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 14:16:55.390 -05 [29044] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-26 14:17:01.875 -05 [26256] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 14:17:02.071 -05 [26256] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 14:17:02.073 -05 [26256] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 14:17:04.166 -05 [13852] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 11:45:49 -05
+2024-07-26 14:17:13.790 -05 [13852] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 14:17:13.811 -05 [13852] LOG:  redo comienza en 0/178D1F0
+2024-07-26 14:17:13.812 -05 [13852] LOG:  largo de registro no válido en 0/178D228: se esperaba 24, se obtuvo 0
+2024-07-26 14:17:13.812 -05 [13852] LOG:  redo listo en 0/178D1F0
+2024-07-26 14:17:14.648 -05 [26256] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 14:23:48.398 -05 [26256] LOG:  proceso ayudante «logical replication launcher» (PID 17028) fue terminado por una excepción 0xC000013A
+2024-07-26 14:23:48.398 -05 [26256] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 14:23:48.401 -05 [26256] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 14:23:48.446 -05 [4320] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-26 14:23:48.446 -05 [4320] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-26 14:23:48.446 -05 [4320] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-26 14:23:48.454 -05 [26256] LOG:  recolector de estadísticas (PID 18776) fue terminado por una excepción 0xC000013A
+2024-07-26 14:23:48.454 -05 [26256] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 14:23:48.473 -05 [26256] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 14:23:48.765 -05 [19024] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 14:17:13 -05
+2024-07-26 14:23:49.053 -05 [26256] LOG:  proceso de inicio (PID 19024) fue terminado por una excepción 0xC000013A
+2024-07-26 14:23:49.053 -05 [26256] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 14:23:49.053 -05 [26256] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+^C2024-07-26 14:23:54.308 -05 [16164] LOG:  iniciando PostgreSQL 13.3, compiled by Visual C++ build 1914, 64-bit
+2024-07-26 14:23:54.374 -05 [16164] LOG:  escuchando en la dirección IPv4 «127.0.0.1», port 5432
+2024-07-26 14:23:54.375 -05 [16164] LOG:  escuchando en la dirección IPv6 «::1», port 5432
+2024-07-26 14:23:54.679 -05 [29148] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 14:17:13 -05
+2024-07-26 14:23:58.132 -05 [29148] LOG:  el sistema de bases de datos no fue apagado apropiadamente; se está efectuando la recuperación automática
+2024-07-26 14:23:58.149 -05 [29148] LOG:  redo comienza en 0/178D2A0
+2024-07-26 14:23:58.149 -05 [29148] LOG:  largo de registro no válido en 0/178D2D8: se esperaba 24, se obtuvo 0
+2024-07-26 14:23:58.149 -05 [29148] LOG:  redo listo en 0/178D2A0
+2024-07-26 14:23:58.760 -05 [16164] LOG:  el sistema de bases de datos está listo para aceptar conexiones
+2024-07-26 14:45:39.981 -05 [19412] LOG:  no se pudo recibir datos del cliente: unrecognized winsock error 10054
+2024-07-26 15:56:00.845 -05 [16164] LOG:  proceso de servidor (PID 27368) fue terminado por una excepción 0xC000013A
+2024-07-26 15:56:00.845 -05 [16164] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 15:56:00.848 -05 [16164] LOG:  terminando todos los otros procesos de servidor activos
+2024-07-26 15:56:00.933 -05 [5024] WARNING:  terminando la conexión debido a una falla en otro proceso servidor
+2024-07-26 15:56:00.933 -05 [5024] DETALLE:  Postmaster ha ordenado que este proceso servidor cancele la transacción en curso y finalice la conexión, porque otro proceso servidor ha terminado anormalmente y podría haber corrompido la memoria compartida.
+2024-07-26 15:56:00.933 -05 [5024] HINT:  Dentro de un momento debería poder reconectarse y repetir la consulta.
+2024-07-26 15:56:00.976 -05 [16164] LOG:  todos los procesos fueron terminados; reinicializando
+2024-07-26 15:56:01.270 -05 [17564] LOG:  el sistema de bases de datos fue interrumpido; última vez en funcionamiento en 2024-07-26 15:08:59 -05
+2024-07-26 15:56:05.532 -05 [16164] LOG:  proceso de inicio (PID 17564) fue terminado por una excepción 0xC000013A
+2024-07-26 15:56:05.532 -05 [16164] HINT:  Vea el archivo «ntstatus.h» para una descripción del valor hexadecimal.
+2024-07-26 15:56:05.532 -05 [16164] LOG:  abortando el inicio debido a una falla en el procesamiento de inicio
+2024-07-26 15:56:05.537 -05 [16164] LOG:  el sistema de bases de datos está apagado
+^C

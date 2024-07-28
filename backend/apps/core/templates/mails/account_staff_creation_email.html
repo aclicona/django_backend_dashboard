@@ -1,0 +1,33 @@
+{% load mytags %}
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+
+<body>
+<p style='margin:0cm;margin-bottom:.0001pt;font-size:15px;font-family:"Calibri",sans-serif;'><span
+        style='font-size:16px;font-family:"Segoe UI",sans-serif;'>Hola  {{ user.first_name }},</span></p>
+<p style='margin:0cm;margin-bottom:.0001pt;font-size:15px;font-family:"Calibri",sans-serif;'><span
+        style='font-size:16px;font-family:"Segoe UI",sans-serif;'>Has sido agregado como usuario al micrositio <a
+        href="{% frontend_protocol %}://{% frontend_domain %}"
+        rel="noopener"
+        style="text-decoration: none; color: rgb(30, 64, 175);"
+        target="_blank">{% site_name %}</a>.  Ahora debes establecer una contraseña para tu cuenta ({{ user.email }}).</span></p>
+<br>
+<br>
+<a
+        href="{% frontend_protocol %}://{% frontend_domain %}/{{ path }}/{{ token }}"
+        style="text-decoration:none;display:inline-block;color:white;background-color:rgb(30, 64, 175);border-radius:0px;width:auto;border-top:1px solid rgb(30, 64, 175);border-right:1px solid rgb(30, 64, 175);border-bottom:1px solid rgb(30, 64, 175);border-left:1px solid rgb(30, 64, 175);padding-top:5px;padding-bottom:5px;font-family:Helvetica Neue, Helvetica, Arial, sans-serif;text-align:center;mso-border-alt:none;word-break:keep-all;"
+        target="_blank"><span
+        style="padding-left:20px;padding-right:20px;font-size:12px;display:inline-block;letter-spacing:normal;"><span
+        style="font-size: 1rem; line-height: 2; word-break: break-word; mso-line-height-alt: 24px;">ESTABLECER CONTRASEÑA</span></span></a>
+<br>
+<br>
+<p style='margin:0cm;margin-bottom:.0001pt;font-size:15px;font-family:"Calibri",sans-serif;'><span
+        style='font-size:16px;font-family:"Segoe UI",sans-serif;'>¡Muchas gracias!</span>
+</p>
+</body>
+</html>
